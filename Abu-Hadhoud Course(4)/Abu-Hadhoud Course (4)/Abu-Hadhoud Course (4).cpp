@@ -1,29 +1,44 @@
 #include<iostream>
 using namespace std;
 
-int Random_Number(int From, int To) {
+int ReadPositiveNumber(string message) {
+	int num;
 
-	int randNum = rand() % (To - From + 1) + From;
+	cout << message;
+	cin >> num;
 
-	return randNum;
+	return num;
 }
 
-void Fill_Array(string arr[100], int& arrLength) {
+int RandomNumber(int From, int To) { 	
+	int randNum = rand() % (To - From + 1) + From;
+	return randNum;
+} 
 
+void AddArrayElement(int Number, int arr[100], int& arrLength) {
+	arrLength++;
+	arr[arrLength - 1] = Number;
+} 
+
+
+void Fill_Array(int arr[100], int& arrLength) {
+	int randNum;
 	for (int i = 0; i < arrLength; i++) {
-		for (int j = 0; j < 16; j++) {
-			char ch = Random_Number(65, 90);
-			arr[i] += ch;
-			if (j == 3 || j == 7 || j == 11)
-				arr[i] += "-";
-		}
+		randNum = RandomNumber(1, 100);
+		arr[i] = randNum;
 	}
 }
 
-void Print_Array(string arr[100], int arrLength) {
+void CopyArrayElements(int primaryArr[100], int secondaryArr[100], int arrLength, int& secArrLength) {
+	for (int i = 0; i < arrLength; i++) {
+		AddArrayElement(primaryArr[i], secondaryArr, secArrLength);
+	}
+}
+
+void Print_Array(int arr[100], int arrLength) {
 
 	for (int i = 0; i < arrLength; i++)
-		cout << "Array[" << i << "] : " << arr[i] << endl;
+		cout << arr[i] << " ";
 
 	cout << "\n";
 }
@@ -31,11 +46,16 @@ void Print_Array(string arr[100], int arrLength) {
 int main() {
 	srand((unsigned)time(NULL));
 
-	string arr[100];
-	int arrLength = 5;
-	Fill_Array(arr, arrLength);
+	int primaryArr[100], secArr[100];
+	int primaryArrLength = ReadPositiveNumber("Please enter array size: ");
+	int secArrLength = 0;
+	Fill_Array(primaryArr, primaryArrLength);
+	cout << "Array 1 elements: " << endl;
+	Print_Array(primaryArr, primaryArrLength);
 
-	Print_Array(arr, arrLength);
+	CopyArrayElements(primaryArr, secArr, primaryArrLength, secArrLength);
+	cout << "Array 2 elements: " << endl;
+	Print_Array(secArr, secArrLength);
 
 	return 0;
 }
