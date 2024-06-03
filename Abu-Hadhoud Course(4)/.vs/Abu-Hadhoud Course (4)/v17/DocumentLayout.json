@@ -1,9 +1,16 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "F:\\Programming\\Ahmad\\GitHub Repository\\Programming-Save\\C\u0026C\u002B\u002B\\Abu-Hadhoud Course(4)\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{6375D720-5A1A-4A61-9FBA-969862B104D0}|Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).vcxproj|F:\\Programming\\Ahmad\\GitHub Repository\\Programming-Save\\C\u0026C\u002B\u002B\\Abu-Hadhoud Course(4)\\Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+=======
+  "WorkspaceRootPath": "D:\\GitHub Repository\\Programming-Save\\Cpp\\Abu-Hadhoud Course(4)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6375D720-5A1A-4A61-9FBA-969862B104D0}|Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).vcxproj|D:\\GitHub Repository\\Programming-Save\\Cpp\\Abu-Hadhoud Course(4)\\Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{6375D720-5A1A-4A61-9FBA-969862B104D0}|Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).vcxproj|solutionrelative:Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,9 +27,15 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Abu-Hadhoud Course (4).cpp",
+<<<<<<< Updated upstream
               "DocumentMoniker": "F:\\Programming\\Ahmad\\GitHub Repository\\Programming-Save\\C\u0026C\u002B\u002B\\Abu-Hadhoud Course(4)\\Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
               "RelativeDocumentMoniker": "Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
               "ToolTip": "F:\\Programming\\Ahmad\\GitHub Repository\\Programming-Save\\C\u0026C\u002B\u002B\\Abu-Hadhoud Course(4)\\Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
+=======
+              "DocumentMoniker": "D:\\GitHub Repository\\Programming-Save\\Cpp\\Abu-Hadhoud Course(4)\\Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
+              "RelativeDocumentMoniker": "Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
+              "ToolTip": "D:\\GitHub Repository\\Programming-Save\\Cpp\\Abu-Hadhoud Course(4)\\Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Abu-Hadhoud Course (4)\\Abu-Hadhoud Course (4).cpp",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAwBEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
