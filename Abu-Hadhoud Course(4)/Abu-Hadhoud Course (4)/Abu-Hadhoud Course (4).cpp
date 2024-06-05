@@ -10,24 +10,16 @@ double readNumber(string message) {
 	return num;
 }
 
-double getFractionPart(double number) {
-	return number - (int)number;
-}
-
-int roundFunction(double number) {
-	double fractionalPart = getFractionPart(number);
-	if (fractionalPart >= 0.5)
-		return ((int)number + 1);
-	else
-		return (int)number;
+double sqrtFunction(double number) {
+	return pow(number, 0.5);
 }
 
 int main() {
 
 	double number = readNumber("Enter number: ");
 	
-	cout << "My round function: " << roundFunction(number) << endl;
-	cout << "C++ round function: " << round(number) << endl;
+	cout << "My sqrt function: " << sqrtFunction(number) << endl;
+	cout << "C++ sqrt function: " << sqrt(number) << endl;
 
 	return 0;
 }
