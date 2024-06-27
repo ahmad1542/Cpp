@@ -1,3 +1,2 @@
 ﻿  MathQuiz.cpp
-D:\GitHub Repository\Programming-Save\Cpp\MathQuiz\MathQuiz\MathQuiz.cpp(6,53): error C2365: 'div': redefinition; previous definition was 'function'
-D:\GitHub Repository\Programming-Save\Cpp\MathQuiz\MathQuiz\MathQuiz.cpp(156,3): error C3861: 'questionPrint': identifier not found
+  MathQuiz.vcxproj -> D:\GitHub Repository\Programming-Save\Cpp\MathQuiz\x64\Debug\MathQuiz.exe
